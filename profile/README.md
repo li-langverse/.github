@@ -39,7 +39,7 @@ If a project shows **404** or asks you to sign in, it is **private** — request
 | **lit** | Testing library | [GitLab](https://gitlab.lilangverse.xyz/li-langverse/lit) | [GitHub](https://github.com/li-langverse/lit) |
 | **roadmap** | Ecosystem governance & agent-kit | [GitLab](https://gitlab.lilangverse.xyz/li-langverse/roadmap) | [GitHub](https://github.com/li-langverse/roadmap) |
 | **benchmarks** | Perf dashboard data | [GitLab](https://gitlab.lilangverse.xyz/li-langverse/benchmarks) | [GitHub](https://github.com/li-langverse/benchmarks) |
-| **lib** | Agentic browser packages | [GitLab](https://gitlab.lilangverse.xyz/li-langverse/lib) | [GitHub](https://github.com/li-langverse/lib) |
+| **li-browser** | Agentic browser packages | [GitLab](https://gitlab.lilangverse.xyz/li-langverse/li-browser) | [GitHub](https://github.com/li-langverse/li-browser) |
 
 **Live docs (GitHub Pages):**
 
