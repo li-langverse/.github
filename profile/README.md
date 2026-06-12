@@ -2,7 +2,9 @@
 
 **Li** is an open ecosystem for high-performance computing, scientific computing, and AI — with a native compiler (`lic`), package manager (`lip`), secure web server (`lis` / `li-httpd`), and provable builds.
 
-This GitHub organization is a **read-only mirror** of our primary development on GitLab. Clone, branch, and merge on GitLab; GitHub updates automatically.
+This GitHub organization is **not** where we develop Li source code. **GitLab** is primary for git, issues, and MRs. GitHub is used for **GHCR** container images (`ghcr.io/li-langverse/*`) and a few legacy Pages workflows during migration.
+
+**Clone and contribute on GitLab** — public projects need no account to browse or clone.
 
 ---
 
@@ -30,16 +32,16 @@ If a project shows **404** or asks you to sign in, it is **private** — request
 
 ## Main repositories
 
-| Repo | Role | GitLab | GitHub mirror |
-|------|------|--------|---------------|
-| **lic** | Li compiler, stdlib, libernetes | [GitLab](https://gitlab.lilangverse.xyz/li-langverse/lic) | [GitHub](https://github.com/li-langverse/lic) |
-| **lis** | Secure Li web server (li-httpd) | [GitLab](https://gitlab.lilangverse.xyz/li-langverse/lis) | [GitHub](https://github.com/li-langverse/lis) |
-| **li-httpd** | Li HTTP daemon package | [GitLab](https://gitlab.lilangverse.xyz/li-langverse/li-httpd) | [GitHub](https://github.com/li-langverse/li-httpd) |
-| **lip** | Package manager | [GitLab](https://gitlab.lilangverse.xyz/li-langverse/lip) | [GitHub](https://github.com/li-langverse/lip) |
-| **lit** | Testing library | [GitLab](https://gitlab.lilangverse.xyz/li-langverse/lit) | [GitHub](https://github.com/li-langverse/lit) |
-| **roadmap** | Ecosystem governance & agent-kit | [GitLab](https://gitlab.lilangverse.xyz/li-langverse/roadmap) | [GitHub](https://github.com/li-langverse/roadmap) |
-| **benchmarks** | Perf dashboard data | [GitLab](https://gitlab.lilangverse.xyz/li-langverse/benchmarks) | [GitHub](https://github.com/li-langverse/benchmarks) |
-| **li-browser** | Agentic browser packages | [GitLab](https://gitlab.lilangverse.xyz/li-langverse/li-browser) | [GitHub](https://github.com/li-langverse/li-browser) |
+| Repo | Role | GitLab |
+|------|------|--------|
+| **lic** | Li compiler, stdlib, libernetes | [GitLab](https://gitlab.lilangverse.xyz/li-langverse/lic) |
+| **lis** | Secure Li web server (li-httpd) | [GitLab](https://gitlab.lilangverse.xyz/li-langverse/lis) |
+| **li-httpd** | Li HTTP daemon package | [GitLab](https://gitlab.lilangverse.xyz/li-langverse/li-httpd) |
+| **lip** | Package manager | [GitLab](https://gitlab.lilangverse.xyz/li-langverse/lip) |
+| **lit** | Testing library | [GitLab](https://gitlab.lilangverse.xyz/li-langverse/lit) |
+| **roadmap** | Ecosystem governance & agent-kit | [GitLab](https://gitlab.lilangverse.xyz/li-langverse/roadmap) |
+| **benchmarks** | Perf dashboard data | [GitLab](https://gitlab.lilangverse.xyz/li-langverse/benchmarks) |
+| **li-browser** | Agentic browser packages | [GitLab](https://gitlab.lilangverse.xyz/li-langverse/li-browser) |
 
 **Live docs (GitHub Pages):**
 
@@ -61,7 +63,7 @@ Services run on a homelab Kubernetes cluster (engine node) and are exposed at th
 | `gitlab.lilangverse.xyz` | **Primary git** — develop here | `A` → `77.23.124.82` |
 | `lip.lilangverse.xyz` | Li package registry API | `A` → `77.23.124.82` |
 
-**Policy:** GitLab is primary for git and CI. GitHub mirrors repos every ~15 minutes. Do not push commits directly to `github.com/li-langverse/*` for day-to-day development.
+**Policy:** GitLab is primary for git and CI. GitHub org = **GHCR only** (no git mirror expectation). Do not push commits to `github.com/li-langverse/*`.
 
 **LAN:** cluster services use in-cluster DNS (e.g. `gitlab.gitlab.svc`). **WAN:** public hostnames above resolve to the Fritz-box WAN IP and terminate TLS at the edge (ports **80** / **443**).
 
@@ -76,7 +78,7 @@ Maintainers only (project **Owner** or **Maintainer**):
 3. Set **Project visibility** to **Public**.
 4. Save changes.
 
-The project then appears on https://gitlab.lilangverse.xyz/explore and is readable without login. The GitLab→GitHub mirror will continue to sync; ensure the matching GitHub repo visibility matches your intent.
+The project then appears on https://gitlab.lilangverse.xyz/explore and is readable without login.
 
 To create a new **public** project: **New project** → set visibility to **Public** at creation time, under the `li-langverse` group.
 
