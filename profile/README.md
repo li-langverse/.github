@@ -2,7 +2,9 @@
 
 **Li** is an open ecosystem for high-performance computing, scientific computing, and AI — with a native compiler (`lic`), package manager (`lip`), secure web server (`lis` / `li-httpd`), and provable builds.
 
-This GitHub organization is **not** where we develop Li source code. **GitLab** is primary for git, issues, and MRs. GitHub is used for **GHCR** container images (`ghcr.io/li-langverse/*`) and a few legacy Pages workflows during migration.
+This GitHub organization is **not** where we develop Li source code. **GitLab** is primary for git, issues, and MRs.
+
+**GitHub org purpose:** **GHCR** container images (`ghcr.io/li-langverse/*`) and this **org profile** (`.github` repo). Mirror git repos are **archived** — clone from GitLab only.
 
 **Clone and contribute on GitLab** — public projects need no account to browse or clone.
 
@@ -43,12 +45,12 @@ If a project shows **404** or asks you to sign in, it is **private** — request
 | **benchmarks** | Perf dashboard data | [GitLab](https://gitlab.lilangverse.xyz/li-langverse/benchmarks) |
 | **li-browser** | Agentic browser packages | [GitLab](https://gitlab.lilangverse.xyz/li-langverse/li-browser) |
 
-**Live docs (GitHub Pages):**
+**Live docs (homelab / GitLab Pages):**
 
-- [Benchmarks dashboard](https://li-langverse.github.io/benchmarks/)
-- [Development overview](https://li-langverse.github.io/roadmap/development-overview/)
-- [Master plan (PH tracker)](https://github.com/li-langverse/lic/blob/main/docs/superpowers/plans/2026-05-14-li-master-plan.md)
-- [Getting started (tools)](https://github.com/li-langverse/lic/blob/main/docs/guide/getting-started-tools.md)
+- [Benchmarks dashboard](https://benchmarks.lilangverse.xyz/)
+- [Development overview](https://progress.lilangverse.xyz/roadmap/development-overview/)
+- [Master plan (PH tracker)](https://gitlab.lilangverse.xyz/li-langverse/lic/-/blob/main/docs/superpowers/plans/2026-05-14-li-master-plan.md)
+- [Getting started (tools)](https://gitlab.lilangverse.xyz/li-langverse/lic/-/blob/main/docs/guide/getting-started-tools.md)
 
 **Container images:** `ghcr.io/li-langverse/*` (GitHub Container Registry).
 
